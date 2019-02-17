@@ -18,6 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Home" >
+            <!--Default Intent Filter-->
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--OR Other activities like this And  intent filter is not necessary in other activites-->
+        <activity android:name=".Music" >
+        </activity>
+        <!--OR Add Other activities like this-->
+        <activity android:name=".Alarm" />
+        <activity android:name=".Analysis" />
     </application>
 
 </manifest>
